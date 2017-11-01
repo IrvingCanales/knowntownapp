@@ -10,6 +10,6 @@ class Save extends CI_Controller {
 		$email= $this->input->post("email");
 		echo "Holi ".$email;
 
-		 redirect("welcome");
+		 //redirect("welcome");
 	}
 }
