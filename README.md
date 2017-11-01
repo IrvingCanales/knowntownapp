@@ -1,2 +1,0 @@
-# knowntownapp
-Knowtown
