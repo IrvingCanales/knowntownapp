@@ -1,5 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
+ echo base_url()."save"
 ?><!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -11,7 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <head>
         <meta charset="utf-8">
         <meta name="robots" content="all,follow">
-        <meta name="googlebot" content="index,follow,snippet,archive">
+        <meta name="googlebot" content="index,town,culture,search">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>KnowTown</title>
@@ -119,10 +120,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
                             <div class="col-md-6 col-md-offset-3" data-animate="fadeInUp">
-                                <form action="save_user.php" method="post" id="frm-landingPage1" class="form">
+                                <form action="<?php echo site_url('save')?>" method="post" id="frm-landingPage1" class="form">
                                     <div class="input-group">
 
-                                        <input type="text" class="form-control" placeholder="tu dirección de correo electrónico" name="email" id="frm-landingPage1-email" required value="">
+                                        <input type="text" class="form-control" placeholder="Tu dirección de correo electrónico" name="email" id="frm-landingPage1-email" required value="">
 
                                         <span class="input-group-btn">
 
